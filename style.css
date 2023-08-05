@@ -1,0 +1,151 @@
+*{
+    padding:0;
+    margin:0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.navb{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 5%;
+    margin-right:5%;
+}
+
+.cent{
+    position: relative;
+    width:100%;
+    min-height: 9%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+    word-spacing: 30px;
+    font-size: 20px;
+}
+.codevo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+}
+nav>label,nav>.cent{
+    display: inline;
+    margin-top:10px;
+}
+nav>ul,ul>li{
+    display: inline-block;
+    position: relative;
+}
+.right-logo {
+    display: flex;
+    /* position:relative; */
+    margin-left:auto;
+    align-items: center;
+}
+.right-logo>img{
+    
+    width: 25px;
+    height:25px;   
+    margin:10px;
+    
+}
+
+
+.hero-component{
+    margin-top: 50px;
+    /* display: flex;
+    justify-content: center;
+    text-align: center; */
+    position: relative;
+}
+
+.hero-component>img{
+    width:95%;
+    position: absolute;
+    /* top: 50%; */
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+table{
+    position: relative;
+    /* margin-left:10%; */
+    width:100%;
+}
+
+.left_text{
+    position: relative;
+    text-align: left;
+    margin-left: 20%;
+    padding-top: 10%;
+}
+
+.left_text>img{
+    padding-top:2%;
+}
+
+.left_text>.btm{
+
+    padding-top:2%;
+    font-size: 20px;
+}
+
+
+.left_text>button{
+    margin-top:5%;
+    width:210px;
+    height:63px;
+    font-size:15px;
+    border-radius: 10px;
+    background-image: linear-gradient(180deg, rgba(255, 81, 81, 0.50) 0%, #FF5E3A 100%);
+    border-color: #FF5E3A;
+}
+
+
+.right_image>img{
+    position: relative;
+    float: right;
+    margin-right:5%;
+    width:67.5%;
+}
+
+.collection{
+    margin-top:8%;
+    text-align:center;
+}
+
+.collection>img{
+    text-align:center;
+}
+
+.top-coll{
+    text-align:center;
+    margin-top: 3%;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.buttons{
+    text-align: center;
+    word-spacing: 25px;
+}
+
+.buttons>button{
+    margin-top:2%;
+    height:63px;
+    width:130px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    transition: background 0.3s ease-in-out;
+}
+
+.buttons>button:hover{
+    background-image: linear-gradient(180deg, rgba(255, 81, 81, 0.50) 0%, #FF5E3A 100%);
+}
+
